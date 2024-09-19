@@ -2,7 +2,8 @@ import ldap
 
 def authenticate(username, password):
     ldap.set_option(ldap.OPT_X_TLS_REQUIRE_CERT, ldap.OPT_X_TLS_NEVER)
-    server = "ldaps://ldap.example.com:636"
+    #server = "ldaps://ldap.example.com:636"
+    server = "http://127.0.0.1:5000"
     base_dn = "dc=example.com"
     user_dn = "uid={},{}".format(username, base_dn)
     try:
