@@ -3,23 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Network Usafe</title>
+    <title>Network Usage</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        /* Chatbot Icon Button */
+        #chatbotIcon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-size: 30px;
+            z-index: 1000;
+        }
+
+        /* Chat Popup */
+        #chatPopup {
+            display: none; /* Hidden by default */
+            position: fixed;
+            bottom: 90px;
+            right: 20px;
+            width: 300px;
+            max-width: 100%;
+            border-radius: 10px;
+            background-color: #373737;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+
+
+    </style>
 </head>
 <body>
-    {% if g.user %}
-    <p class="text-center">Hello, {{ g.user['username'] }}!</p>
-    {% endif %}
     <nav>
         <ul class="nav justify-content-center">
             {% if g.user %}
             <li class="nav-item"><a class="btn btn-primary" href="{{ url_for('auth.logout') }}">Log Out</a>
             {% else %}
-            <li class="nav-item"><a class="btn btn-primary" href="{{ url_for('auth.register') }}">Register</a>
             <li class="nav-item"><a  class="btn btn-primary" href="{{ url_for('auth.login') }}">Log In</a>
             {% endif %}
         </ul>
     </nav>
+    {% if g.user %}
+    <p class="text-center">Hello, {{ g.user['username'] }}!</p>
     <div class="container mt-5">
         <h1 class="text-center">Network Usage</h1>
         <ul class="nav nav-tabs nav-fill" id="tab-list" role="tablist" >
@@ -52,6 +87,9 @@
             </div>
         </div>
     </div>
+    {% else %}
+    <div class="alert alert-primary d-flex justify-content-center">You must login to view</div>
+    {% endif %}
     <section class="content">
         <header>
           {% block header %}{% endblock %}
@@ -61,6 +99,28 @@
         {% endfor %}
         {% block content %}{% endblock %}
       </section>
+    <button id="chatbotIcon">💬</button>
+
+    <div id="chatPopup">
+        <div>
+            <p class="text-center" style="margin-top: 10px; margin-bottom: 20px;">How can I help you today?</p>
+        </div>
+        <textarea placeholder="Type your message..." style="min-width: 100%; min-height: 200px;"></textarea>
+        <button class="btn btn-primary"style="min-width: 100%;">Send</button>
+    </div>
+
+    <script>
+        const chatbotIcon = document.getElementById('chatbotIcon');
+        const chatPopup = document.getElementById('chatPopup');
+
+        chatbotIcon.addEventListener('click', () => {
+            if (chatPopup.style.display === 'none' || chatPopup.style.display === '') {
+                chatPopup.style.display = 'block';
+            } else {
+                chatPopup.style.display = 'none';
+            }
+        });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     </body>
