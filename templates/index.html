@@ -7,9 +7,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    {% if person %}
-    <p class="text-center">Hello, {{ person }}!</p>
+    {% if g.user %}
+    <p class="text-center">Hello, {{ g.user['username'] }}!</p>
     {% endif %}
+    <nav>
+        <ul class="nav justify-content-center">
+            {% if g.user %}
+            <li class="nav-item"><a class="btn btn-primary" href="{{ url_for('auth.logout') }}">Log Out</a>
+            {% else %}
+            <li class="nav-item"><a class="btn btn-primary" href="{{ url_for('auth.register') }}">Register</a>
+            <li class="nav-item"><a  class="btn btn-primary" href="{{ url_for('auth.login') }}">Log In</a>
+            {% endif %}
+        </ul>
+    </nav>
     <div class="container mt-5">
         <h1 class="text-center">Network Usage</h1>
         <ul class="nav nav-tabs nav-fill" id="tab-list" role="tablist" >
@@ -42,7 +52,15 @@
             </div>
         </div>
     </div>
-
+    <section class="content">
+        <header>
+          {% block header %}{% endblock %}
+        </header>
+        {% for message in get_flashed_messages() %}
+          <div class="alert alert-primary">{{ message }}</div>
+        {% endfor %}
+        {% block content %}{% endblock %}
+      </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     </body>
