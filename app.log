@@ -40,3 +40,91 @@
 2024-09-26 15:53:22,427 - INFO - 127.0.0.1 - - [26/Sep/2024 15:53:22] "GET /login HTTP/1.1" 200 -
 2024-09-26 15:53:24,418 - INFO - Acceess Index from 127.0.0.1, User: riley
 2024-09-26 15:53:24,427 - INFO - 127.0.0.1 - - [26/Sep/2024 15:53:24] "GET /index HTTP/1.1" 200 -
+2024-09-26 16:16:30,197 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-26 16:16:30,198 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-26 16:16:30,198 - INFO -  * Restarting with stat
+2024-09-26 16:16:30,322 - WARNING -  * Debugger is active!
+2024-09-26 16:16:30,327 - INFO -  * Debugger PIN: 112-912-416
+2024-09-26 16:16:34,310 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-09-26 16:16:34,319 - INFO - 127.0.0.1 - - [26/Sep/2024 16:16:34] "GET /index HTTP/1.1" 200 -
+2024-09-26 16:16:35,424 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-09-26 16:16:35,426 - INFO - 127.0.0.1 - - [26/Sep/2024 16:16:35] "GET /index HTTP/1.1" 200 -
+2024-09-26 16:16:36,141 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-09-26 16:16:36,144 - INFO - 127.0.0.1 - - [26/Sep/2024 16:16:36] "GET /login HTTP/1.1" 200 -
+2024-09-26 16:16:37,574 - INFO - 127.0.0.1 - - [26/Sep/2024 16:16:37] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-09-26 16:16:37,624 - INFO - 127.0.0.1 - - [26/Sep/2024 16:16:37] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-26 16:16:37,624 - INFO - 127.0.0.1 - - [26/Sep/2024 16:16:37] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-26 16:16:37,640 - INFO - 127.0.0.1 - - [26/Sep/2024 16:16:37] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=PzHDMEDvK6jZ2wm4OSxd HTTP/1.1" 200 -
+2024-09-26 16:16:37,653 - INFO - 127.0.0.1 - - [26/Sep/2024 16:16:37] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-26 16:20:47,196 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/UI-Team---CAT-1/LDAP_Test.py', reloading
+2024-09-26 16:20:47,228 - INFO -  * Restarting with stat
+2024-09-26 16:20:47,394 - WARNING -  * Debugger is active!
+2024-09-26 16:20:47,399 - INFO -  * Debugger PIN: 112-912-416
+2024-09-26 16:20:50,580 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/UI-Team---CAT-1/LDAP_Test.py', reloading
+2024-09-26 16:20:50,607 - INFO -  * Restarting with stat
+2024-09-26 16:20:50,712 - WARNING -  * Debugger is active!
+2024-09-26 16:20:50,716 - INFO -  * Debugger PIN: 463-449-979
+2024-09-26 16:20:54,910 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/UI-Team---CAT-1/LDAP_Test.py', reloading
+2024-09-26 16:20:54,935 - INFO -  * Restarting with stat
+2024-09-26 16:20:55,043 - WARNING -  * Debugger is active!
+2024-09-26 16:20:55,046 - INFO -  * Debugger PIN: 463-449-979
+2024-09-26 16:21:48,451 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-26 16:21:48,451 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-26 16:21:48,452 - INFO -  * Restarting with stat
+2024-09-26 16:21:48,582 - WARNING -  * Debugger is active!
+2024-09-26 16:21:48,586 - INFO -  * Debugger PIN: 112-912-416
+2024-09-26 16:22:00,963 - INFO - Start ldap
+2024-09-26 16:22:00,963 - ERROR - Error: (0, 'Error')
+2024-09-26 16:22:00,963 - INFO - End ldap
+2024-09-26 16:22:00,963 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-09-26 16:22:00,967 - INFO - 127.0.0.1 - - [26/Sep/2024 16:22:00] "POST /login HTTP/1.1" 200 -
+2024-09-26 16:22:02,444 - INFO - Start ldap
+2024-09-26 16:22:02,444 - ERROR - Error: (0, 'Error')
+2024-09-26 16:22:02,444 - INFO - End ldap
+2024-09-26 16:22:02,444 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-09-26 16:22:02,445 - INFO - 127.0.0.1 - - [26/Sep/2024 16:22:02] "POST /login HTTP/1.1" 200 -
+2024-09-26 16:22:04,345 - INFO - Start ldap
+2024-09-26 16:22:04,345 - ERROR - Error: (0, 'Error')
+2024-09-26 16:22:04,345 - INFO - End ldap
+2024-09-26 16:22:04,345 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-09-26 16:22:04,345 - INFO - 127.0.0.1 - - [26/Sep/2024 16:22:04] "POST /login HTTP/1.1" 200 -
+2024-09-26 16:22:08,211 - INFO - Start ldap
+2024-09-26 16:22:08,211 - ERROR - Error: (0, 'Error')
+2024-09-26 16:22:08,211 - INFO - End ldap
+2024-09-26 16:22:08,211 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-09-26 16:22:08,211 - INFO - 127.0.0.1 - - [26/Sep/2024 16:22:08] "POST /login HTTP/1.1" 200 -
+2024-09-26 16:22:10,455 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-09-26 16:22:10,462 - INFO - 127.0.0.1 - - [26/Sep/2024 16:22:10] "GET /index HTTP/1.1" 200 -
+2024-09-26 16:22:11,151 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-09-26 16:22:11,152 - INFO - 127.0.0.1 - - [26/Sep/2024 16:22:11] "GET /login HTTP/1.1" 200 -
+2024-09-26 16:22:12,461 - INFO - Start ldap
+2024-09-26 16:22:12,462 - ERROR - Error: (0, 'Error')
+2024-09-26 16:22:12,462 - INFO - End ldap
+2024-09-26 16:22:12,462 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-09-26 16:22:12,462 - INFO - 127.0.0.1 - - [26/Sep/2024 16:22:12] "POST /login HTTP/1.1" 200 -
+2024-09-26 16:23:12,726 - INFO - Start ldap
+2024-09-26 16:23:12,726 - ERROR - Error: (0, 'Error')
+2024-09-26 16:23:12,726 - INFO - End ldap
+2024-09-26 16:23:12,726 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-09-26 16:23:12,727 - INFO - 127.0.0.1 - - [26/Sep/2024 16:23:12] "POST /login HTTP/1.1" 200 -
+2024-09-26 16:23:44,953 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/UI-Team---CAT-1/LDAP_Test.py', reloading
+2024-09-26 16:23:44,986 - INFO -  * Restarting with stat
+2024-09-26 16:23:45,166 - WARNING -  * Debugger is active!
+2024-09-26 16:23:45,170 - INFO -  * Debugger PIN: 112-912-416
+2024-09-26 16:23:49,396 - INFO - Start ldap
+2024-09-26 16:23:49,396 - ERROR - Error: (0, 'Error')
+2024-09-26 16:23:49,396 - INFO - End ldap
+2024-09-26 16:23:49,396 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-09-26 16:23:49,400 - INFO - 127.0.0.1 - - [26/Sep/2024 16:23:49] "POST /login HTTP/1.1" 200 -
+2024-09-26 16:23:50,770 - INFO - Start ldap
+2024-09-26 16:23:50,770 - ERROR - Error: (0, 'Error')
+2024-09-26 16:23:50,770 - INFO - End ldap
+2024-09-26 16:23:50,770 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-09-26 16:23:50,771 - INFO - 127.0.0.1 - - [26/Sep/2024 16:23:50] "POST /login HTTP/1.1" 200 -
+2024-09-26 16:23:51,482 - INFO - Start ldap
+2024-09-26 16:23:51,482 - ERROR - Error: (0, 'Error')
+2024-09-26 16:23:51,482 - INFO - End ldap
+2024-09-26 16:23:51,482 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-09-26 16:23:51,483 - INFO - 127.0.0.1 - - [26/Sep/2024 16:23:51] "POST /login HTTP/1.1" 200 -

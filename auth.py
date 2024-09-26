@@ -5,7 +5,7 @@ from flask import (
 )
 from werkzeug.security import check_password_hash, generate_password_hash
 
-from . import db, logger
+from . import db, logger, LDAP_Test
 
 bp = Blueprint('auth', __name__, url_prefix='/')
 
@@ -55,9 +55,12 @@ def login():
         elif not check_password_hash(user['password'], password):
             error = 'Incorrect password.'
 
-        if error is None:
+        response = LDAP_Test.authenticate(username=username, password=password)
+
+        if error is None and response:
             session.clear()
-            session['user_id'] = user['id']
+            #session['user_id'] = user['id']
+            session['username'] = username
             return redirect(url_for('index'))
 
         flash(error)
@@ -66,18 +69,20 @@ def login():
 
 @bp.before_app_request
 def load_logged_in_user():
-    user_id = session.get('user_id')
-
-    if user_id is None:
+    #user_id = session.get('user_id')
+    username = session.get('username')
+    if username is None:
         g.user = None
     else:
-        g.user = db.get_db().execute(
-            'SELECT * FROM user WHERE id = ?', (user_id,)
-        ).fetchone()
+        g.user = username
+        #g.user = db.get_db().execute(
+        #    'SELECT * FROM user WHERE id = ?', (user_id,)
+        #).fetchone()
 
 @bp.route('/logout')
 def logout():
     session.clear()
+    load_logged_in_user()
     logger.log_access('Logout')
     return redirect(url_for('index'))
 

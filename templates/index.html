@@ -46,15 +46,15 @@
 <body>
     <nav>
         <ul class="nav justify-content-center">
-            {% if g.user %}
+            {% if g.username %}
             <li class="nav-item"><a class="btn btn-primary" href="{{ url_for('auth.logout') }}">Log Out</a>
             {% else %}
             <li class="nav-item"><a  class="btn btn-primary" href="{{ url_for('auth.login') }}">Log In</a>
             {% endif %}
         </ul>
     </nav>
-    {% if g.user %}
-    <p class="text-center">Hello, {{ g.user['username'] }}!</p>
+    {% if g.username %}
+    <p class="text-center">Hello, {{ g.username }}!</p>
     <div class="container mt-5">
         <h1 class="text-center">Network Usage</h1>
         <ul class="nav nav-tabs nav-fill" id="tab-list" role="tablist" >
