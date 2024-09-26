@@ -1,5 +1,13 @@
 import os
-from flask import Flask, render_template
+from flask import Flask, render_template, request, g
+import logging
+from . import logger
+
+logging.basicConfig(
+    filename='app.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
 
 def create_app(test_config=None):
     app = Flask(__name__, instance_relative_config=True)
@@ -24,6 +32,7 @@ def create_app(test_config=None):
     
     @app.route("/index")
     def index():
+        logger.log_access('Index')
         return render_template("index.html")
     
     return app

@@ -1,13 +1,14 @@
 import functools
-
+import logging
 from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for
 )
 from werkzeug.security import check_password_hash, generate_password_hash
 
-from . import db
+from . import db, logger
 
 bp = Blueprint('auth', __name__, url_prefix='/')
+
 
 @bp.route('/register', methods=('GET', 'POST'))
 def register():
@@ -35,7 +36,7 @@ def register():
                 return redirect(url_for("auth.login"))
 
         flash(error)
-
+    logger.log_access('Register')
     return render_template('register.html')
 
 @bp.route('/login', methods=('GET', 'POST'))
@@ -60,7 +61,7 @@ def login():
             return redirect(url_for('index'))
 
         flash(error)
-
+    logger.log_access('Login')
     return render_template('login.html')
 
 @bp.before_app_request
@@ -77,6 +78,7 @@ def load_logged_in_user():
 @bp.route('/logout')
 def logout():
     session.clear()
+    logger.log_access('Logout')
     return redirect(url_for('index'))
 
 def login_required(view):

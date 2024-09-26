@@ -1,0 +1,32 @@
+2024-09-25 19:56:43,598 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-25 19:56:43,598 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-25 19:56:43,599 - INFO -  * Restarting with stat
+2024-09-25 19:56:43,705 - WARNING -  * Debugger is active!
+2024-09-25 19:56:43,710 - INFO -  * Debugger PIN: 112-912-416
+2024-09-25 19:56:56,072 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-09-25 19:56:56,082 - INFO - 127.0.0.1 - - [25/Sep/2024 19:56:56] "GET /index HTTP/1.1" 200 -
+2024-09-25 19:57:34,003 - INFO - 127.0.0.1 - - [25/Sep/2024 19:57:34] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-09-25 19:57:34,034 - INFO - 127.0.0.1 - - [25/Sep/2024 19:57:34] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-25 19:57:34,038 - INFO - 127.0.0.1 - - [25/Sep/2024 19:57:34] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-25 19:57:34,067 - INFO - 127.0.0.1 - - [25/Sep/2024 19:57:34] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=R7sZjZnLzVYADIkJs1ki HTTP/1.1" 200 -
+2024-09-25 19:57:34,098 - INFO - 127.0.0.1 - - [25/Sep/2024 19:57:34] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-25 19:57:53,971 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/UI-Team---CAT-1/__init__.py', reloading
+2024-09-25 19:57:54,003 - INFO -  * Restarting with stat
+2024-09-25 19:57:54,155 - WARNING -  * Debugger is active!
+2024-09-25 19:57:54,159 - INFO -  * Debugger PIN: 112-912-416
+2024-09-25 19:59:18,037 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/UI-Team---CAT-1/logger.py', reloading
+2024-09-25 19:59:18,066 - INFO -  * Restarting with stat
+2024-09-25 19:59:18,211 - WARNING -  * Debugger is active!
+2024-09-25 19:59:18,215 - INFO -  * Debugger PIN: 112-912-416
+2024-09-25 20:01:41,403 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-25 20:01:41,403 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-25 20:01:41,403 - INFO -  * Restarting with stat
+2024-09-25 20:01:41,507 - WARNING -  * Debugger is active!
+2024-09-25 20:01:41,512 - INFO -  * Debugger PIN: 112-912-416
+2024-09-25 20:01:50,059 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-09-25 20:01:50,065 - INFO - 127.0.0.1 - - [25/Sep/2024 20:01:50] "GET /login HTTP/1.1" 200 -
+2024-09-25 20:02:03,578 - INFO - 127.0.0.1 - - [25/Sep/2024 20:02:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-09-25 20:02:03,583 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-09-25 20:02:03,585 - INFO - 127.0.0.1 - - [25/Sep/2024 20:02:03] "GET /index HTTP/1.1" 200 -
