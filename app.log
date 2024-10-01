@@ -128,3 +128,408 @@
 2024-09-26 16:23:51,482 - INFO - End ldap
 2024-09-26 16:23:51,482 - INFO - Acceess Login from 127.0.0.1, User: Unknown
 2024-09-26 16:23:51,483 - INFO - 127.0.0.1 - - [26/Sep/2024 16:23:51] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:20:45,708 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-01 09:20:45,709 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-01 09:20:56,345 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-10-01 09:20:56,355 - INFO - 127.0.0.1 - - [01/Oct/2024 09:20:56] "GET /index HTTP/1.1" 200 -
+2024-10-01 09:20:56,570 - INFO - 127.0.0.1 - - [01/Oct/2024 09:20:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-01 09:20:57,932 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:20:57,935 - INFO - 127.0.0.1 - - [01/Oct/2024 09:20:57] "GET /login HTTP/1.1" 200 -
+2024-10-01 09:21:00,006 - ERROR - Exception on /login [POST]
+Traceback (most recent call last):
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/auth.py", line 49, in login
+    user = thedb.execute(
+           ^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: user
+2024-10-01 09:21:00,009 - INFO - 127.0.0.1 - - [01/Oct/2024 09:21:00] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-10-01 09:21:23,018 - ERROR - Exception on /login [POST]
+Traceback (most recent call last):
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/auth.py", line 49, in login
+    user = thedb.execute(
+           ^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: user
+2024-10-01 09:21:23,019 - INFO - 127.0.0.1 - - [01/Oct/2024 09:21:23] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-10-01 09:24:07,781 - INFO - Start ldap
+2024-10-01 09:24:07,782 - ERROR - Error: (0, 'Error')
+2024-10-01 09:24:07,782 - INFO - End ldap
+2024-10-01 09:24:07,782 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:24:07,784 - INFO - 127.0.0.1 - - [01/Oct/2024 09:24:07] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:24:09,416 - INFO - Start ldap
+2024-10-01 09:24:09,416 - ERROR - Error: (0, 'Error')
+2024-10-01 09:24:09,416 - INFO - End ldap
+2024-10-01 09:24:09,416 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:24:09,417 - INFO - 127.0.0.1 - - [01/Oct/2024 09:24:09] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:24:10,100 - INFO - Start ldap
+2024-10-01 09:24:10,100 - ERROR - Error: (0, 'Error')
+2024-10-01 09:24:10,101 - INFO - End ldap
+2024-10-01 09:24:10,101 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:24:10,101 - INFO - 127.0.0.1 - - [01/Oct/2024 09:24:10] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:24:34,372 - INFO - Start ldap
+2024-10-01 09:24:34,372 - ERROR - Error: (0, 'Error')
+2024-10-01 09:24:34,372 - INFO - End ldap
+2024-10-01 09:24:34,372 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:24:34,373 - INFO - 127.0.0.1 - - [01/Oct/2024 09:24:34] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:24:34,801 - INFO - Start ldap
+2024-10-01 09:24:34,801 - ERROR - Error: (0, 'Error')
+2024-10-01 09:24:34,801 - INFO - End ldap
+2024-10-01 09:24:34,801 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:24:34,802 - INFO - 127.0.0.1 - - [01/Oct/2024 09:24:34] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:24:34,972 - INFO - Start ldap
+2024-10-01 09:24:34,973 - ERROR - Error: (0, 'Error')
+2024-10-01 09:24:34,973 - INFO - End ldap
+2024-10-01 09:24:34,973 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:24:34,973 - INFO - 127.0.0.1 - - [01/Oct/2024 09:24:34] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:24:35,157 - INFO - Start ldap
+2024-10-01 09:24:35,158 - ERROR - Error: (0, 'Error')
+2024-10-01 09:24:35,158 - INFO - End ldap
+2024-10-01 09:24:35,158 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:24:35,159 - INFO - 127.0.0.1 - - [01/Oct/2024 09:24:35] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:25:41,585 - INFO - Start ldap
+2024-10-01 09:25:41,586 - ERROR - Error: (0, 'Error')
+2024-10-01 09:25:41,586 - INFO - End ldap
+2024-10-01 09:25:41,586 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:25:41,587 - INFO - 127.0.0.1 - - [01/Oct/2024 09:25:41] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:25:42,381 - INFO - Start ldap
+2024-10-01 09:25:42,382 - ERROR - Error: (0, 'Error')
+2024-10-01 09:25:42,382 - INFO - End ldap
+2024-10-01 09:25:42,382 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:25:42,383 - INFO - 127.0.0.1 - - [01/Oct/2024 09:25:42] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:25:42,714 - INFO - Start ldap
+2024-10-01 09:25:42,714 - ERROR - Error: (0, 'Error')
+2024-10-01 09:25:42,714 - INFO - End ldap
+2024-10-01 09:25:42,714 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:25:42,715 - INFO - 127.0.0.1 - - [01/Oct/2024 09:25:42] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:25:42,854 - INFO - Start ldap
+2024-10-01 09:25:42,854 - ERROR - Error: (0, 'Error')
+2024-10-01 09:25:42,854 - INFO - End ldap
+2024-10-01 09:25:42,854 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:25:42,854 - INFO - 127.0.0.1 - - [01/Oct/2024 09:25:42] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:25:43,005 - INFO - Start ldap
+2024-10-01 09:25:43,005 - ERROR - Error: (0, 'Error')
+2024-10-01 09:25:43,005 - INFO - End ldap
+2024-10-01 09:25:43,005 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:25:43,006 - INFO - 127.0.0.1 - - [01/Oct/2024 09:25:43] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:25:43,136 - INFO - Start ldap
+2024-10-01 09:25:43,136 - ERROR - Error: (0, 'Error')
+2024-10-01 09:25:43,136 - INFO - End ldap
+2024-10-01 09:25:43,136 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:25:43,137 - INFO - 127.0.0.1 - - [01/Oct/2024 09:25:43] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:25:53,584 - INFO - Acceess Register from 127.0.0.1, User: Unknown
+2024-10-01 09:25:53,588 - INFO - 127.0.0.1 - - [01/Oct/2024 09:25:53] "GET /register HTTP/1.1" 200 -
+2024-10-01 09:26:40,586 - INFO - 127.0.0.1 - - [01/Oct/2024 09:26:40] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-10-01 09:26:40,590 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:26:40,590 - INFO - 127.0.0.1 - - [01/Oct/2024 09:26:40] "GET /login HTTP/1.1" 200 -
+2024-10-01 09:26:42,099 - INFO - Start ldap
+2024-10-01 09:26:42,099 - ERROR - Error: (0, 'Error')
+2024-10-01 09:26:42,099 - INFO - End ldap
+2024-10-01 09:26:42,099 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:26:42,099 - INFO - 127.0.0.1 - - [01/Oct/2024 09:26:42] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:26:53,662 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-10-01 09:26:53,663 - INFO - 127.0.0.1 - - [01/Oct/2024 09:26:53] "GET /index HTTP/1.1" 200 -
+2024-10-01 09:26:55,064 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:26:55,065 - INFO - 127.0.0.1 - - [01/Oct/2024 09:26:55] "GET /login HTTP/1.1" 200 -
+2024-10-01 09:26:56,648 - INFO - Start ldap
+2024-10-01 09:26:56,648 - ERROR - Error: (0, 'Error')
+2024-10-01 09:26:56,648 - INFO - End ldap
+2024-10-01 09:26:56,648 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:26:56,648 - INFO - 127.0.0.1 - - [01/Oct/2024 09:26:56] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:27:50,611 - INFO - Start ldap
+2024-10-01 09:27:50,612 - ERROR - Error: (0, 'Error')
+2024-10-01 09:27:50,612 - INFO - End ldap
+2024-10-01 09:27:50,612 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:27:50,612 - INFO - 127.0.0.1 - - [01/Oct/2024 09:27:50] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:27:51,898 - INFO - Start ldap
+2024-10-01 09:27:51,899 - ERROR - Error: (0, 'Error')
+2024-10-01 09:27:51,899 - INFO - End ldap
+2024-10-01 09:27:51,899 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:27:51,899 - INFO - 127.0.0.1 - - [01/Oct/2024 09:27:51] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:27:52,910 - INFO - Start ldap
+2024-10-01 09:27:52,910 - ERROR - Error: (0, 'Error')
+2024-10-01 09:27:52,910 - INFO - End ldap
+2024-10-01 09:27:52,910 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:27:52,910 - INFO - 127.0.0.1 - - [01/Oct/2024 09:27:52] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:27:53,255 - INFO - Start ldap
+2024-10-01 09:27:53,255 - ERROR - Error: (0, 'Error')
+2024-10-01 09:27:53,255 - INFO - End ldap
+2024-10-01 09:27:53,255 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:27:53,256 - INFO - 127.0.0.1 - - [01/Oct/2024 09:27:53] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:27:53,330 - INFO - Start ldap
+2024-10-01 09:27:53,330 - ERROR - Error: (0, 'Error')
+2024-10-01 09:27:53,330 - INFO - End ldap
+2024-10-01 09:27:53,330 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-01 09:27:53,330 - INFO - 127.0.0.1 - - [01/Oct/2024 09:27:53] "POST /login HTTP/1.1" 200 -
+2024-10-01 09:28:04,073 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-01 09:28:04,074 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-01 09:28:07,296 - INFO - Start ldap
+2024-10-01 09:28:07,296 - ERROR - Error: (0, 'Error')
+2024-10-01 09:28:07,296 - INFO - End ldap
+2024-10-01 09:28:07,298 - INFO - 127.0.0.1 - - [01/Oct/2024 09:28:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-01 09:28:07,301 - ERROR - Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/__init__.py", line 35, in index
+    logger.log_access('Index')
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/logger.py", line 7, in log_access
+    logger.info(f"Acceess {page} from {request.remote_addr}, User: {g.user['username']}")
+                                                                    ~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-10-01 09:28:07,303 - INFO - 127.0.0.1 - - [01/Oct/2024 09:28:07] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2024-10-01 09:28:09,496 - ERROR - Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/__init__.py", line 35, in index
+    logger.log_access('Index')
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/logger.py", line 7, in log_access
+    logger.info(f"Acceess {page} from {request.remote_addr}, User: {g.user['username']}")
+                                                                    ~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-10-01 09:28:09,497 - INFO - 127.0.0.1 - - [01/Oct/2024 09:28:09] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2024-10-01 09:28:12,289 - ERROR - Exception on /login [GET]
+Traceback (most recent call last):
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/auth.py", line 67, in login
+    logger.log_access('Login')
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/logger.py", line 7, in log_access
+    logger.info(f"Acceess {page} from {request.remote_addr}, User: {g.user['username']}")
+                                                                    ~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-10-01 09:28:12,291 - INFO - 127.0.0.1 - - [01/Oct/2024 09:28:12] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-10-01 09:29:32,826 - ERROR - Exception on /login [GET]
+Traceback (most recent call last):
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/auth.py", line 67, in login
+    logger.log_access('Login')
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/logger.py", line 7, in log_access
+    logger.info(f"Acceess {page} from {request.remote_addr}, User: {g.user}")
+                                                                    ^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-10-01 09:29:32,828 - INFO - 127.0.0.1 - - [01/Oct/2024 09:29:32] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-10-01 09:29:33,711 - ERROR - Exception on /login [GET]
+Traceback (most recent call last):
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/auth.py", line 67, in login
+    logger.log_access('Login')
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/logger.py", line 7, in log_access
+    logger.info(f"Acceess {page} from {request.remote_addr}, User: {g.user}")
+                                                                    ^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-10-01 09:29:33,712 - INFO - 127.0.0.1 - - [01/Oct/2024 09:29:33] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-10-01 09:29:34,077 - ERROR - Exception on /login [GET]
+Traceback (most recent call last):
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/auth.py", line 67, in login
+    logger.log_access('Login')
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/logger.py", line 7, in log_access
+    logger.info(f"Acceess {page} from {request.remote_addr}, User: {g.user}")
+                                                                    ^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-10-01 09:29:34,079 - INFO - 127.0.0.1 - - [01/Oct/2024 09:29:34] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-10-01 09:29:34,238 - ERROR - Exception on /login [GET]
+Traceback (most recent call last):
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT/.venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/auth.py", line 67, in login
+    logger.log_access('Login')
+  File "/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/logger.py", line 7, in log_access
+    logger.info(f"Acceess {page} from {request.remote_addr}, User: {g.user}")
+                                                                    ^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-10-01 09:29:34,239 - INFO - 127.0.0.1 - - [01/Oct/2024 09:29:34] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-10-01 09:29:39,756 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-01 09:29:39,756 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-01 09:29:42,028 - INFO - Acceess Login from 127.0.0.1, User: riley
+2024-10-01 09:29:42,035 - INFO - 127.0.0.1 - - [01/Oct/2024 09:29:42] "GET /login HTTP/1.1" 200 -
+2024-10-01 09:29:43,424 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-01 09:29:43,430 - INFO - 127.0.0.1 - - [01/Oct/2024 09:29:43] "GET /index HTTP/1.1" 200 -
+2024-10-01 09:29:44,259 - INFO - Acceess Login from 127.0.0.1, User: riley
+2024-10-01 09:29:44,260 - INFO - 127.0.0.1 - - [01/Oct/2024 09:29:44] "GET /login HTTP/1.1" 200 -
+2024-10-01 09:29:45,708 - INFO - Start ldap
+2024-10-01 09:29:45,709 - ERROR - Error: (0, 'Error')
+2024-10-01 09:29:45,709 - INFO - End ldap
+2024-10-01 09:29:45,709 - INFO - 127.0.0.1 - - [01/Oct/2024 09:29:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-01 09:29:45,715 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-01 09:29:45,715 - INFO - 127.0.0.1 - - [01/Oct/2024 09:29:45] "GET /index HTTP/1.1" 200 -
+2024-10-01 09:29:47,230 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-01 09:29:47,231 - INFO - 127.0.0.1 - - [01/Oct/2024 09:29:47] "GET /index HTTP/1.1" 200 -
+2024-10-01 09:29:47,662 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-01 09:29:47,663 - INFO - 127.0.0.1 - - [01/Oct/2024 09:29:47] "GET /index HTTP/1.1" 200 -
+2024-10-01 09:30:47,143 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-01 09:30:47,143 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-01 09:30:47,144 - INFO -  * Restarting with stat
+2024-10-01 09:30:47,268 - WARNING -  * Debugger is active!
+2024-10-01 09:30:47,284 - INFO -  * Debugger PIN: 112-912-416
+2024-10-01 09:30:49,606 - INFO - 127.0.0.1 - - [01/Oct/2024 09:30:49] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2024-10-01 09:30:49,646 - INFO - 127.0.0.1 - - [01/Oct/2024 09:30:49] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-10-01 09:30:49,650 - INFO - 127.0.0.1 - - [01/Oct/2024 09:30:49] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-10-01 09:30:49,670 - INFO - 127.0.0.1 - - [01/Oct/2024 09:30:49] "GET /index?__debugger__=yes&cmd=resource&f=console.png&s=3pYXYqtUhG4ACGxGgpyB HTTP/1.1" 200 -
+2024-10-01 09:30:49,691 - INFO - 127.0.0.1 - - [01/Oct/2024 09:30:49] "[36mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-01 09:30:50,337 - INFO - 127.0.0.1 - - [01/Oct/2024 09:30:50] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2024-10-01 09:30:50,361 - INFO - 127.0.0.1 - - [01/Oct/2024 09:30:50] "[36mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-01 09:30:50,364 - INFO - 127.0.0.1 - - [01/Oct/2024 09:30:50] "[36mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-01 09:30:50,387 - INFO - 127.0.0.1 - - [01/Oct/2024 09:30:50] "[36mGET /index?__debugger__=yes&cmd=resource&f=console.png&s=3pYXYqtUhG4ACGxGgpyB HTTP/1.1[0m" 304 -
+2024-10-01 09:30:50,396 - INFO - 127.0.0.1 - - [01/Oct/2024 09:30:50] "[36mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-01 09:32:05,075 - INFO - 127.0.0.1 - - [01/Oct/2024 09:32:05] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2024-10-01 09:32:05,104 - INFO - 127.0.0.1 - - [01/Oct/2024 09:32:05] "[36mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-01 09:32:05,110 - INFO - 127.0.0.1 - - [01/Oct/2024 09:32:05] "[36mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-01 09:32:05,119 - INFO - 127.0.0.1 - - [01/Oct/2024 09:32:05] "[36mGET /index?__debugger__=yes&cmd=resource&f=console.png&s=3pYXYqtUhG4ACGxGgpyB HTTP/1.1[0m" 304 -
+2024-10-01 09:32:05,140 - INFO - 127.0.0.1 - - [01/Oct/2024 09:32:05] "[36mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-01 09:32:07,612 - INFO - 127.0.0.1 - - [01/Oct/2024 09:32:07] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-10-01 09:32:07,636 - INFO - 127.0.0.1 - - [01/Oct/2024 09:32:07] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-10-01 09:32:07,638 - INFO - 127.0.0.1 - - [01/Oct/2024 09:32:07] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-10-01 09:32:07,668 - INFO - 127.0.0.1 - - [01/Oct/2024 09:32:07] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=3pYXYqtUhG4ACGxGgpyB HTTP/1.1" 200 -
+2024-10-01 09:32:07,684 - INFO - 127.0.0.1 - - [01/Oct/2024 09:32:07] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-01 09:32:28,154 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/auth.py', reloading
+2024-10-01 09:32:28,184 - INFO -  * Restarting with stat
+2024-10-01 09:32:28,365 - WARNING -  * Debugger is active!
+2024-10-01 09:32:28,369 - INFO -  * Debugger PIN: 112-912-416
+2024-10-01 09:32:30,961 - INFO - Acceess Login from 127.0.0.1, User: riley
+2024-10-01 09:32:30,967 - INFO - 127.0.0.1 - - [01/Oct/2024 09:32:30] "GET /login HTTP/1.1" 200 -
+2024-10-01 09:32:32,664 - INFO - Start ldap
+2024-10-01 09:32:32,664 - ERROR - Error: (0, 'Error')
+2024-10-01 09:32:32,664 - INFO - End ldap
+2024-10-01 09:32:32,664 - INFO - 127.0.0.1 - - [01/Oct/2024 09:32:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-01 09:32:32,668 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-01 09:32:32,670 - INFO - 127.0.0.1 - - [01/Oct/2024 09:32:32] "GET /index HTTP/1.1" 200 -
+2024-10-01 09:32:36,343 - INFO - Acceess Login from 127.0.0.1, User: riley
+2024-10-01 09:32:36,343 - INFO - 127.0.0.1 - - [01/Oct/2024 09:32:36] "GET /login HTTP/1.1" 200 -
+2024-10-01 09:32:37,993 - INFO - Start ldap
+2024-10-01 09:32:37,993 - ERROR - Error: (0, 'Error')
+2024-10-01 09:32:37,993 - INFO - End ldap
+2024-10-01 09:32:37,993 - INFO - 127.0.0.1 - - [01/Oct/2024 09:32:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-01 09:32:37,999 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-01 09:32:37,999 - INFO - 127.0.0.1 - - [01/Oct/2024 09:32:37] "GET /index HTTP/1.1" 200 -
+2024-10-01 11:53:53,878 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-01 11:53:53,880 - INFO - 127.0.0.1 - - [01/Oct/2024 11:53:53] "GET /index HTTP/1.1" 200 -
+2024-10-01 11:53:55,747 - INFO - Acceess Login from 127.0.0.1, User: riley
+2024-10-01 11:53:55,748 - INFO - 127.0.0.1 - - [01/Oct/2024 11:53:55] "GET /login HTTP/1.1" 200 -
+2024-10-01 11:53:57,304 - INFO - Start ldap
+2024-10-01 11:53:57,307 - ERROR - Error: (0, 'Error')
+2024-10-01 11:53:57,307 - INFO - End ldap
+2024-10-01 11:53:57,308 - INFO - 127.0.0.1 - - [01/Oct/2024 11:53:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-01 11:53:57,312 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-01 11:53:57,312 - INFO - 127.0.0.1 - - [01/Oct/2024 11:53:57] "GET /index HTTP/1.1" 200 -
+2024-10-01 11:54:29,485 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-01 11:54:29,496 - INFO - 127.0.0.1 - - [01/Oct/2024 11:54:29] "GET /index HTTP/1.1" 200 -
+2024-10-01 11:54:30,033 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-01 11:54:30,033 - INFO - 127.0.0.1 - - [01/Oct/2024 11:54:30] "GET /index HTTP/1.1" 200 -
+2024-10-01 11:54:44,864 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-01 11:54:44,870 - INFO - 127.0.0.1 - - [01/Oct/2024 11:54:44] "GET /index HTTP/1.1" 200 -
+2024-10-01 12:02:44,461 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-01 12:02:44,469 - INFO - 127.0.0.1 - - [01/Oct/2024 12:02:44] "GET /index HTTP/1.1" 200 -
+2024-10-01 12:03:06,630 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-01 12:03:06,632 - INFO - 127.0.0.1 - - [01/Oct/2024 12:03:06] "GET /index HTTP/1.1" 200 -
+2024-10-01 12:05:40,346 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-01 12:05:40,347 - INFO - 127.0.0.1 - - [01/Oct/2024 12:05:40] "GET /index HTTP/1.1" 200 -
+2024-10-01 12:08:31,952 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-01 12:08:31,954 - INFO - 127.0.0.1 - - [01/Oct/2024 12:08:31] "GET /index HTTP/1.1" 200 -
+2024-10-01 12:08:36,868 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-01 12:08:36,869 - INFO - 127.0.0.1 - - [01/Oct/2024 12:08:36] "GET /index HTTP/1.1" 200 -
+2024-10-01 15:33:21,934 - INFO - Acceess Login from 127.0.0.1, User: riley
+2024-10-01 15:33:21,940 - INFO - 127.0.0.1 - - [01/Oct/2024 15:33:21] "GET /login HTTP/1.1" 200 -
+2024-10-01 15:33:22,057 - INFO - 127.0.0.1 - - [01/Oct/2024 15:33:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-01 15:33:23,384 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-01 15:33:23,385 - INFO - 127.0.0.1 - - [01/Oct/2024 15:33:23] "GET /index HTTP/1.1" 200 -

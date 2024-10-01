@@ -46,15 +46,15 @@
 <body>
     <nav>
         <ul class="nav justify-content-center">
-            {% if g.username %}
+            {% if g.user %}
             <li class="nav-item"><a class="btn btn-primary" href="{{ url_for('auth.logout') }}">Log Out</a>
             {% else %}
             <li class="nav-item"><a  class="btn btn-primary" href="{{ url_for('auth.login') }}">Log In</a>
             {% endif %}
         </ul>
     </nav>
-    {% if g.username %}
-    <p class="text-center">Hello, {{ g.username }}!</p>
+    {% if g.user %}
+    <p class="text-center">Hello, {{ g.user }}!</p>
     <div class="container mt-5">
         <h1 class="text-center">Network Usage</h1>
         <ul class="nav nav-tabs nav-fill" id="tab-list" role="tablist" >
@@ -100,13 +100,14 @@
         {% block content %}{% endblock %}
       </section>
     <button id="chatbotIcon">💬</button>
-
+    
     <div id="chatPopup">
-        <div>
-            <p class="text-center" style="margin-top: 10px; margin-bottom: 20px;">How can I help you today?</p>
-        </div>
-        <textarea placeholder="Type your message..." style="min-width: 100%; min-height: 200px;"></textarea>
-        <button class="btn btn-primary"style="min-width: 100%;">Send</button>
+        <iframe
+        src="https://app.creator.io/iframe?chatbotid=1dc77661-ee9e-45dd-afbd-bb85bd2dc255"
+        width="100%"
+        style="height: 100%; max-height: 600px; min-height: 500px; border: none"
+        frameborder="0"
+        ></iframe>
     </div>
 
     <script>
