@@ -3,6 +3,7 @@ import logging
 from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for
 )
+
 from werkzeug.security import check_password_hash, generate_password_hash
 
 from . import db, logger, LDAP_Test
@@ -46,18 +47,17 @@ def login():
         password = request.form['password']
         thedb = db.get_db()
         error = None
-        user = thedb.execute(
-            'SELECT * FROM user WHERE username = ?', (username,)
-        ).fetchone()
+        #user = thedb.execute(
+        #    'SELECT * FROM user WHERE username = ?', (username,)
+        #).fetchone()
 
-        if user is None:
-            error = 'Incorrect username.'
-        elif not check_password_hash(user['password'], password):
-            error = 'Incorrect password.'
+        #if user is None:
+            #error = 'Incorrect username.'
+        #elif not check_password_hash(user['password'], password):
+            #error = 'Incorrect password.'
 
-        response = LDAP_Test.authenticate(username=username, password=password)
-
-        if (error is None and response) or True:
+        response, error = LDAP_Test.authenticate(username=username, password=password)
+        if (error is None and response):
             session.clear()
             #session['user_id'] = user['id']
             session['username'] = username

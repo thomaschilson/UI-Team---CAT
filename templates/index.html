@@ -55,37 +55,44 @@
     </nav>
     {% if g.user %}
     <p class="text-center">Hello, {{ g.user }}!</p>
-    <div class="container mt-5">
-        <h1 class="text-center">Network Usage</h1>
-        <ul class="nav nav-tabs nav-fill" id="tab-list" role="tablist" >
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">Usage Map</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">Usage Listed</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">Timeline</button>
-            </li>
-        </ul>
+    <div style="width: 50%; height: 100%; left: 0%; position: fixed;">
+        <div class="container mt-5">
+            <h1 class="text-center">Network Usage</h1>
+            <ul class="nav nav-tabs nav-fill" id="tab-list" role="tablist" >
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">Main Grafana Panel</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">Usage Listed</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">Timeline</button>
+                </li>
+            </ul>
 
-        <div class="tab-content mt-3">
-            <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
-                <div class="d-flex justify-content-center">
-                    <img src="https://user-images.githubusercontent.com/30197206/132107276-26251ae5-9656-47f2-b64d-f9ba13ddff22.png" width="900" height="500"></img>
+            <div class="tab-content mt-3">
+                <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+                    <div class="d-flex justify-content-center">
+                        <a href="https://ksenthil21.grafana.net/public-dashboards/a7b36cce35e14d37959875652a97a8a6" target="_blank">
+                            Open in New Tab
+                        </a>
+                    </div>
+                </div> 
+                <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                    <div class="d-flex justify-content-center">
+                        <img src="https://grafana.com/api/dashboards/11350/images/7248/image" width="800" height="600"></img>
+                    </div>
                 </div>
-             </div> 
-            <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
-                <div class="d-flex justify-content-center">
-                    <img src="https://grafana.com/api/dashboards/11350/images/7248/image" width="800" height="600"></img>
-                </div>
-            </div>
-            <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
-                <div class="d-flex justify-content-center">
-                    <img src="https://grafana.com/static/img/docs/v8/state_timeline_strings.png?w=1240" width="1240" height="300"></img>
+                <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+                    <div class="d-flex justify-content-center">
+                        <img src="https://grafana.com/static/img/docs/v8/state_timeline_strings.png?w=1240" width="1240" height="300"></img>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div style="width: 50%; height: 100%; right: 0%; position: fixed;">
+        <img src="static/basic.png" class="d-flex justify-content-center" style="max-width: 100%;" frameborder="0"></a>
     </div>
     {% else %}
     <div class="alert alert-primary d-flex justify-content-center">You must login to view</div>

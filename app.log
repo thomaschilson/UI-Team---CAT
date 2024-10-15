@@ -533,3 +533,406 @@ TypeError: string indices must be integers, not 'str'
 2024-10-01 15:33:22,057 - INFO - 127.0.0.1 - - [01/Oct/2024 15:33:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 2024-10-01 15:33:23,384 - INFO - Acceess Index from 127.0.0.1, User: riley
 2024-10-01 15:33:23,385 - INFO - 127.0.0.1 - - [01/Oct/2024 15:33:23] "GET /index HTTP/1.1" 200 -
+2024-10-03 15:40:13,100 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-03 15:40:13,100 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-03 15:40:31,115 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-03 15:40:31,115 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-03 15:40:31,116 - INFO -  * Restarting with stat
+2024-10-03 15:40:31,255 - WARNING -  * Debugger is active!
+2024-10-03 15:40:31,259 - INFO -  * Debugger PIN: 112-912-416
+2024-10-03 15:40:36,122 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-10-03 15:40:36,131 - INFO - 127.0.0.1 - - [03/Oct/2024 15:40:36] "GET /index HTTP/1.1" 200 -
+2024-10-03 15:40:55,286 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-03 15:40:55,290 - INFO - 127.0.0.1 - - [03/Oct/2024 15:40:55] "GET /login HTTP/1.1" 200 -
+2024-10-03 15:40:55,366 - INFO - 127.0.0.1 - - [03/Oct/2024 15:40:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-03 15:40:56,558 - INFO - Start ldap
+2024-10-03 15:40:56,560 - ERROR - Error: (0, 'Error')
+2024-10-03 15:40:56,560 - INFO - End ldap
+2024-10-03 15:40:56,560 - INFO - 127.0.0.1 - - [03/Oct/2024 15:40:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-03 15:40:56,565 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 15:40:56,565 - INFO - 127.0.0.1 - - [03/Oct/2024 15:40:56] "GET /index HTTP/1.1" 200 -
+2024-10-03 15:42:05,760 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/auth.py', reloading
+2024-10-03 15:42:05,788 - INFO -  * Restarting with stat
+2024-10-03 15:42:05,946 - WARNING -  * Debugger is active!
+2024-10-03 15:42:05,950 - INFO -  * Debugger PIN: 112-912-416
+2024-10-03 15:49:03,441 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 15:49:03,452 - INFO - 127.0.0.1 - - [03/Oct/2024 15:49:03] "GET /index HTTP/1.1" 200 -
+2024-10-03 15:49:08,322 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 15:49:08,323 - INFO - 127.0.0.1 - - [03/Oct/2024 15:49:08] "GET /index HTTP/1.1" 200 -
+2024-10-03 15:49:33,253 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 15:49:33,260 - INFO - 127.0.0.1 - - [03/Oct/2024 15:49:33] "GET /index HTTP/1.1" 200 -
+2024-10-03 15:50:32,255 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 15:50:32,263 - INFO - 127.0.0.1 - - [03/Oct/2024 15:50:32] "GET /index HTTP/1.1" 200 -
+2024-10-03 15:50:32,852 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 15:50:32,853 - INFO - 127.0.0.1 - - [03/Oct/2024 15:50:32] "GET /index HTTP/1.1" 200 -
+2024-10-03 15:50:33,445 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 15:50:33,445 - INFO - 127.0.0.1 - - [03/Oct/2024 15:50:33] "GET /index HTTP/1.1" 200 -
+2024-10-03 15:50:37,706 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 15:50:37,707 - INFO - 127.0.0.1 - - [03/Oct/2024 15:50:37] "GET /index HTTP/1.1" 200 -
+2024-10-03 15:53:20,522 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 15:53:20,528 - INFO - 127.0.0.1 - - [03/Oct/2024 15:53:20] "GET /index HTTP/1.1" 200 -
+2024-10-03 15:54:17,664 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 15:54:17,670 - INFO - 127.0.0.1 - - [03/Oct/2024 15:54:17] "GET /index HTTP/1.1" 200 -
+2024-10-03 15:59:17,192 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 15:59:17,199 - INFO - 127.0.0.1 - - [03/Oct/2024 15:59:17] "GET /index HTTP/1.1" 200 -
+2024-10-03 15:59:17,230 - INFO - 127.0.0.1 - - [03/Oct/2024 15:59:17] "[33mGET /basic.png HTTP/1.1[0m" 404 -
+2024-10-03 15:59:17,802 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 15:59:17,803 - INFO - 127.0.0.1 - - [03/Oct/2024 15:59:17] "GET /index HTTP/1.1" 200 -
+2024-10-03 15:59:17,819 - INFO - 127.0.0.1 - - [03/Oct/2024 15:59:17] "[33mGET /basic.png HTTP/1.1[0m" 404 -
+2024-10-03 16:00:36,081 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:00:36,088 - INFO - 127.0.0.1 - - [03/Oct/2024 16:00:36] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:00:36,130 - INFO - 127.0.0.1 - - [03/Oct/2024 16:00:36] "GET /static/basic.png HTTP/1.1" 200 -
+2024-10-03 16:01:39,127 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:01:39,133 - INFO - 127.0.0.1 - - [03/Oct/2024 16:01:39] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:01:39,168 - INFO - 127.0.0.1 - - [03/Oct/2024 16:01:39] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:03:07,542 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:03:07,543 - INFO - 127.0.0.1 - - [03/Oct/2024 16:03:07] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:03:07,572 - INFO - 127.0.0.1 - - [03/Oct/2024 16:03:07] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:03:58,975 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:03:58,976 - INFO - 127.0.0.1 - - [03/Oct/2024 16:03:58] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:03:58,998 - INFO - 127.0.0.1 - - [03/Oct/2024 16:03:58] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:04:48,525 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:04:48,531 - INFO - 127.0.0.1 - - [03/Oct/2024 16:04:48] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:04:48,555 - INFO - 127.0.0.1 - - [03/Oct/2024 16:04:48] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:08:31,188 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:08:31,189 - INFO - 127.0.0.1 - - [03/Oct/2024 16:08:31] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:08:31,227 - INFO - 127.0.0.1 - - [03/Oct/2024 16:08:31] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:09:06,992 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:09:06,999 - INFO - 127.0.0.1 - - [03/Oct/2024 16:09:06] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:09:07,021 - INFO - 127.0.0.1 - - [03/Oct/2024 16:09:07] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:09:07,639 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:09:07,641 - INFO - 127.0.0.1 - - [03/Oct/2024 16:09:07] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:09:07,661 - INFO - 127.0.0.1 - - [03/Oct/2024 16:09:07] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:24:28,302 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:24:28,304 - INFO - 127.0.0.1 - - [03/Oct/2024 16:24:28] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:24:28,328 - INFO - 127.0.0.1 - - [03/Oct/2024 16:24:28] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:30:12,415 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:30:12,425 - INFO - 127.0.0.1 - - [03/Oct/2024 16:30:12] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:30:12,445 - INFO - 127.0.0.1 - - [03/Oct/2024 16:30:12] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:31:07,312 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:31:07,317 - INFO - 127.0.0.1 - - [03/Oct/2024 16:31:07] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:31:07,358 - INFO - 127.0.0.1 - - [03/Oct/2024 16:31:07] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:31:07,840 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:31:07,840 - INFO - 127.0.0.1 - - [03/Oct/2024 16:31:07] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:31:07,880 - INFO - 127.0.0.1 - - [03/Oct/2024 16:31:07] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:31:36,314 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:31:36,316 - INFO - 127.0.0.1 - - [03/Oct/2024 16:31:36] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:31:36,337 - INFO - 127.0.0.1 - - [03/Oct/2024 16:31:36] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:32:10,264 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:32:10,270 - INFO - 127.0.0.1 - - [03/Oct/2024 16:32:10] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:32:10,294 - INFO - 127.0.0.1 - - [03/Oct/2024 16:32:10] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:32:10,738 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:32:10,738 - INFO - 127.0.0.1 - - [03/Oct/2024 16:32:10] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:32:10,754 - INFO - 127.0.0.1 - - [03/Oct/2024 16:32:10] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:32:42,063 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:32:42,068 - INFO - 127.0.0.1 - - [03/Oct/2024 16:32:42] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:32:42,095 - INFO - 127.0.0.1 - - [03/Oct/2024 16:32:42] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:32:42,504 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:32:42,505 - INFO - 127.0.0.1 - - [03/Oct/2024 16:32:42] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:32:42,521 - INFO - 127.0.0.1 - - [03/Oct/2024 16:32:42] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:32:42,787 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:32:42,787 - INFO - 127.0.0.1 - - [03/Oct/2024 16:32:42] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:32:42,807 - INFO - 127.0.0.1 - - [03/Oct/2024 16:32:42] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:32:58,031 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:32:58,036 - INFO - 127.0.0.1 - - [03/Oct/2024 16:32:58] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:32:58,054 - INFO - 127.0.0.1 - - [03/Oct/2024 16:32:58] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:32:58,606 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:32:58,606 - INFO - 127.0.0.1 - - [03/Oct/2024 16:32:58] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:32:58,623 - INFO - 127.0.0.1 - - [03/Oct/2024 16:32:58] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:32:58,954 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:32:58,955 - INFO - 127.0.0.1 - - [03/Oct/2024 16:32:58] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:32:58,971 - INFO - 127.0.0.1 - - [03/Oct/2024 16:32:58] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:33:20,114 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:33:20,120 - INFO - 127.0.0.1 - - [03/Oct/2024 16:33:20] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:33:20,140 - INFO - 127.0.0.1 - - [03/Oct/2024 16:33:20] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:33:20,729 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:33:20,729 - INFO - 127.0.0.1 - - [03/Oct/2024 16:33:20] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:33:20,751 - INFO - 127.0.0.1 - - [03/Oct/2024 16:33:20] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:33:40,727 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:33:40,732 - INFO - 127.0.0.1 - - [03/Oct/2024 16:33:40] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:33:40,758 - INFO - 127.0.0.1 - - [03/Oct/2024 16:33:40] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-03 16:33:41,342 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-03 16:33:41,342 - INFO - 127.0.0.1 - - [03/Oct/2024 16:33:41] "GET /index HTTP/1.1" 200 -
+2024-10-03 16:33:41,360 - INFO - 127.0.0.1 - - [03/Oct/2024 16:33:41] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-15 09:37:20,290 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-15 09:37:20,290 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 09:37:20,291 - INFO -  * Restarting with stat
+2024-10-15 09:37:20,413 - WARNING -  * Debugger is active!
+2024-10-15 09:37:20,423 - INFO -  * Debugger PIN: 112-912-416
+2024-10-15 09:37:27,433 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-10-15 09:37:27,442 - INFO - 127.0.0.1 - - [15/Oct/2024 09:37:27] "GET /index HTTP/1.1" 200 -
+2024-10-15 09:37:28,390 - INFO - 127.0.0.1 - - [15/Oct/2024 09:37:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-15 09:37:29,144 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:37:29,148 - INFO - 127.0.0.1 - - [15/Oct/2024 09:37:29] "GET /login HTTP/1.1" 200 -
+2024-10-15 09:37:30,379 - INFO - Start ldap
+2024-10-15 09:37:30,379 - ERROR - Error: (0, 'Error')
+2024-10-15 09:37:30,379 - INFO - End ldap
+2024-10-15 09:37:30,379 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:37:30,380 - INFO - 127.0.0.1 - - [15/Oct/2024 09:37:30] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:37:32,005 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-10-15 09:37:32,006 - INFO - 127.0.0.1 - - [15/Oct/2024 09:37:32] "GET /index HTTP/1.1" 200 -
+2024-10-15 09:37:33,311 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:37:33,312 - INFO - 127.0.0.1 - - [15/Oct/2024 09:37:33] "GET /login HTTP/1.1" 200 -
+2024-10-15 09:37:34,164 - INFO - Start ldap
+2024-10-15 09:37:34,165 - ERROR - Error: (0, 'Error')
+2024-10-15 09:37:34,165 - INFO - End ldap
+2024-10-15 09:37:34,165 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:37:34,166 - INFO - 127.0.0.1 - - [15/Oct/2024 09:37:34] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:37:34,842 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-10-15 09:37:34,842 - INFO - 127.0.0.1 - - [15/Oct/2024 09:37:34] "GET /index HTTP/1.1" 200 -
+2024-10-15 09:37:36,392 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:37:36,393 - INFO - 127.0.0.1 - - [15/Oct/2024 09:37:36] "GET /login HTTP/1.1" 200 -
+2024-10-15 09:37:37,731 - INFO - Start ldap
+2024-10-15 09:37:37,731 - ERROR - Error: (0, 'Error')
+2024-10-15 09:37:37,731 - INFO - End ldap
+2024-10-15 09:37:37,731 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:37:37,732 - INFO - 127.0.0.1 - - [15/Oct/2024 09:37:37] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:37:39,030 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-10-15 09:37:39,031 - INFO - 127.0.0.1 - - [15/Oct/2024 09:37:39] "GET /index HTTP/1.1" 200 -
+2024-10-15 09:37:45,484 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:37:45,485 - INFO - 127.0.0.1 - - [15/Oct/2024 09:37:45] "GET /login HTTP/1.1" 200 -
+2024-10-15 09:37:46,865 - INFO - Start ldap
+2024-10-15 09:37:46,865 - ERROR - Error: (0, 'Error')
+2024-10-15 09:37:46,865 - INFO - End ldap
+2024-10-15 09:37:46,865 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:37:46,866 - INFO - 127.0.0.1 - - [15/Oct/2024 09:37:46] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:37:48,233 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-10-15 09:37:48,234 - INFO - 127.0.0.1 - - [15/Oct/2024 09:37:48] "GET /index HTTP/1.1" 200 -
+2024-10-15 09:37:48,959 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:37:48,960 - INFO - 127.0.0.1 - - [15/Oct/2024 09:37:48] "GET /login HTTP/1.1" 200 -
+2024-10-15 09:37:50,352 - INFO - Start ldap
+2024-10-15 09:37:50,352 - ERROR - Error: (0, 'Error')
+2024-10-15 09:37:50,352 - INFO - End ldap
+2024-10-15 09:37:50,352 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:37:50,353 - INFO - 127.0.0.1 - - [15/Oct/2024 09:37:50] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:37:51,444 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-10-15 09:37:51,445 - INFO - 127.0.0.1 - - [15/Oct/2024 09:37:51] "GET /index HTTP/1.1" 200 -
+2024-10-15 09:37:52,355 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:37:52,356 - INFO - 127.0.0.1 - - [15/Oct/2024 09:37:52] "GET /login HTTP/1.1" 200 -
+2024-10-15 09:38:17,034 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/auth.py', reloading
+2024-10-15 09:38:17,058 - INFO -  * Restarting with stat
+2024-10-15 09:38:17,224 - WARNING -  * Debugger is active!
+2024-10-15 09:38:17,228 - INFO -  * Debugger PIN: 112-912-416
+2024-10-15 09:38:21,691 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:38:21,695 - INFO - 127.0.0.1 - - [15/Oct/2024 09:38:21] "GET /login HTTP/1.1" 200 -
+2024-10-15 09:38:22,781 - INFO - Start ldap
+2024-10-15 09:38:22,782 - ERROR - Error: (0, 'Error')
+2024-10-15 09:38:22,782 - INFO - End ldap
+2024-10-15 09:38:22,783 - INFO - 127.0.0.1 - - [15/Oct/2024 09:38:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-15 09:38:22,788 - INFO - Acceess Index from 127.0.0.1, User: riley
+2024-10-15 09:38:22,793 - INFO - 127.0.0.1 - - [15/Oct/2024 09:38:22] "GET /index HTTP/1.1" 200 -
+2024-10-15 09:38:22,871 - INFO - 127.0.0.1 - - [15/Oct/2024 09:38:22] "GET /static/basic.png HTTP/1.1" 200 -
+2024-10-15 09:38:36,994 - INFO - Acceess Logout from 127.0.0.1, User: Unknown
+2024-10-15 09:38:36,995 - INFO - 127.0.0.1 - - [15/Oct/2024 09:38:36] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-10-15 09:38:37,000 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-10-15 09:38:37,000 - INFO - 127.0.0.1 - - [15/Oct/2024 09:38:37] "GET /index HTTP/1.1" 200 -
+2024-10-15 09:38:56,148 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/auth.py', reloading
+2024-10-15 09:38:56,174 - INFO -  * Restarting with stat
+2024-10-15 09:38:56,324 - WARNING -  * Debugger is active!
+2024-10-15 09:38:56,328 - INFO -  * Debugger PIN: 463-449-979
+2024-10-15 09:38:59,466 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/auth.py', reloading
+2024-10-15 09:38:59,492 - INFO -  * Restarting with stat
+2024-10-15 09:38:59,627 - WARNING -  * Debugger is active!
+2024-10-15 09:38:59,630 - INFO -  * Debugger PIN: 112-912-416
+2024-10-15 09:39:04,110 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-10-15 09:39:04,119 - INFO - 127.0.0.1 - - [15/Oct/2024 09:39:04] "GET /index HTTP/1.1" 200 -
+2024-10-15 09:39:04,701 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-10-15 09:39:04,701 - INFO - 127.0.0.1 - - [15/Oct/2024 09:39:04] "GET /index HTTP/1.1" 200 -
+2024-10-15 09:49:58,513 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-15 09:49:58,513 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 09:49:58,514 - INFO -  * Restarting with stat
+2024-10-15 09:49:58,639 - WARNING -  * Debugger is active!
+2024-10-15 09:49:58,645 - INFO -  * Debugger PIN: 112-912-416
+2024-10-15 09:50:01,674 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:50:01,680 - INFO - 127.0.0.1 - - [15/Oct/2024 09:50:01] "GET /login HTTP/1.1" 200 -
+2024-10-15 09:50:04,856 - INFO - Start ldap
+2024-10-15 09:50:04,856 - ERROR - Error: (0, 'Error')
+2024-10-15 09:50:04,856 - INFO - End ldap
+2024-10-15 09:50:04,856 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:50:04,857 - INFO - 127.0.0.1 - - [15/Oct/2024 09:50:04] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:50:06,073 - INFO - Start ldap
+2024-10-15 09:50:06,074 - ERROR - Error: (0, 'Error')
+2024-10-15 09:50:06,074 - INFO - End ldap
+2024-10-15 09:50:06,074 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:50:06,074 - INFO - 127.0.0.1 - - [15/Oct/2024 09:50:06] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:50:06,386 - INFO - Start ldap
+2024-10-15 09:50:06,386 - ERROR - Error: (0, 'Error')
+2024-10-15 09:50:06,386 - INFO - End ldap
+2024-10-15 09:50:06,386 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:50:06,387 - INFO - 127.0.0.1 - - [15/Oct/2024 09:50:06] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:50:06,703 - INFO - Start ldap
+2024-10-15 09:50:06,703 - ERROR - Error: (0, 'Error')
+2024-10-15 09:50:06,703 - INFO - End ldap
+2024-10-15 09:50:06,703 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:50:06,704 - INFO - 127.0.0.1 - - [15/Oct/2024 09:50:06] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:50:07,803 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-10-15 09:50:07,809 - INFO - 127.0.0.1 - - [15/Oct/2024 09:50:07] "GET /index HTTP/1.1" 200 -
+2024-10-15 09:50:08,689 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:50:08,689 - INFO - 127.0.0.1 - - [15/Oct/2024 09:50:08] "GET /login HTTP/1.1" 200 -
+2024-10-15 09:50:09,524 - INFO - Start ldap
+2024-10-15 09:50:09,524 - ERROR - Error: (0, 'Error')
+2024-10-15 09:50:09,524 - INFO - End ldap
+2024-10-15 09:50:09,524 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:50:09,525 - INFO - 127.0.0.1 - - [15/Oct/2024 09:50:09] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:51:47,633 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/LDAP_Test.py', reloading
+2024-10-15 09:51:47,668 - INFO -  * Restarting with stat
+2024-10-15 09:51:47,853 - WARNING -  * Debugger is active!
+2024-10-15 09:51:47,858 - INFO -  * Debugger PIN: 112-912-416
+2024-10-15 09:52:00,418 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/LDAP_Test.py', reloading
+2024-10-15 09:52:00,445 - INFO -  * Restarting with stat
+2024-10-15 09:52:00,610 - WARNING -  * Debugger is active!
+2024-10-15 09:52:00,613 - INFO -  * Debugger PIN: 112-912-416
+2024-10-15 09:53:05,731 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/LDAP_Test.py', reloading
+2024-10-15 09:53:05,761 - INFO -  * Restarting with stat
+2024-10-15 09:53:05,943 - WARNING -  * Debugger is active!
+2024-10-15 09:53:05,950 - INFO -  * Debugger PIN: 112-912-416
+2024-10-15 09:53:18,558 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/LDAP_Test.py', reloading
+2024-10-15 09:53:18,590 - INFO -  * Restarting with stat
+2024-10-15 09:53:18,754 - WARNING -  * Debugger is active!
+2024-10-15 09:53:18,757 - INFO -  * Debugger PIN: 112-912-416
+2024-10-15 09:53:34,206 - INFO - Start ldap
+2024-10-15 09:53:34,207 - ERROR - Error: (0, 'Error')
+2024-10-15 09:53:34,207 - INFO - End ldap
+2024-10-15 09:53:34,207 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:53:34,215 - INFO - 127.0.0.1 - - [15/Oct/2024 09:53:34] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:53:35,506 - INFO - Start ldap
+2024-10-15 09:53:35,506 - ERROR - Error: (0, 'Error')
+2024-10-15 09:53:35,506 - INFO - End ldap
+2024-10-15 09:53:35,506 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:53:35,507 - INFO - 127.0.0.1 - - [15/Oct/2024 09:53:35] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:53:36,104 - INFO - Start ldap
+2024-10-15 09:53:36,104 - ERROR - Error: (0, 'Error')
+2024-10-15 09:53:36,104 - INFO - End ldap
+2024-10-15 09:53:36,105 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:53:36,105 - INFO - 127.0.0.1 - - [15/Oct/2024 09:53:36] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:53:36,313 - INFO - Start ldap
+2024-10-15 09:53:36,314 - ERROR - Error: (0, 'Error')
+2024-10-15 09:53:36,314 - INFO - End ldap
+2024-10-15 09:53:36,314 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:53:36,315 - INFO - 127.0.0.1 - - [15/Oct/2024 09:53:36] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:53:36,563 - INFO - Start ldap
+2024-10-15 09:53:36,563 - ERROR - Error: (0, 'Error')
+2024-10-15 09:53:36,564 - INFO - End ldap
+2024-10-15 09:53:36,564 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:53:36,564 - INFO - 127.0.0.1 - - [15/Oct/2024 09:53:36] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:53:36,849 - INFO - Start ldap
+2024-10-15 09:53:36,849 - ERROR - Error: (0, 'Error')
+2024-10-15 09:53:36,849 - INFO - End ldap
+2024-10-15 09:53:36,849 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:53:36,850 - INFO - 127.0.0.1 - - [15/Oct/2024 09:53:36] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:53:53,395 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/LDAP_Test.py', reloading
+2024-10-15 09:53:53,420 - INFO -  * Restarting with stat
+2024-10-15 09:53:53,602 - WARNING -  * Debugger is active!
+2024-10-15 09:53:53,607 - INFO -  * Debugger PIN: 112-912-416
+2024-10-15 09:54:03,661 - INFO - Start ldap
+2024-10-15 09:54:03,669 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:03] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-10-15 09:54:03,705 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:03] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-10-15 09:54:03,708 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:03] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-10-15 09:54:03,738 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:03] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=smLI15wo15H5fKzUywaC HTTP/1.1" 200 -
+2024-10-15 09:54:03,762 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:03] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-15 09:54:06,699 - INFO - Start ldap
+2024-10-15 09:54:06,709 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:06] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-10-15 09:54:06,731 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:06] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-15 09:54:06,734 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:06] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-15 09:54:06,764 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:06] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=smLI15wo15H5fKzUywaC HTTP/1.1[0m" 304 -
+2024-10-15 09:54:06,785 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:06] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-15 09:54:31,236 - INFO - Start ldap
+2024-10-15 09:54:31,246 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:31] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-10-15 09:54:31,276 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:31] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-15 09:54:31,286 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:31] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-15 09:54:31,303 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:31] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=smLI15wo15H5fKzUywaC HTTP/1.1[0m" 304 -
+2024-10-15 09:54:31,314 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:31] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-15 09:54:36,013 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-10-15 09:54:36,023 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:36] "GET /index HTTP/1.1" 200 -
+2024-10-15 09:54:37,112 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:54:37,115 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:37] "GET /login HTTP/1.1" 200 -
+2024-10-15 09:54:38,408 - INFO - Start ldap
+2024-10-15 09:54:38,424 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:38] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-10-15 09:54:38,452 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:38] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-15 09:54:38,468 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:38] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-15 09:54:38,494 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:38] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=smLI15wo15H5fKzUywaC HTTP/1.1[0m" 304 -
+2024-10-15 09:54:38,511 - INFO - 127.0.0.1 - - [15/Oct/2024 09:54:38] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-15 09:54:47,288 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/LDAP_Test.py', reloading
+2024-10-15 09:54:47,318 - INFO -  * Restarting with stat
+2024-10-15 09:54:47,499 - WARNING -  * Debugger is active!
+2024-10-15 09:54:47,503 - INFO -  * Debugger PIN: 112-912-416
+2024-10-15 09:55:59,173 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/LDAP_Test.py', reloading
+2024-10-15 09:55:59,207 - INFO -  * Restarting with stat
+2024-10-15 09:55:59,383 - WARNING -  * Debugger is active!
+2024-10-15 09:55:59,387 - INFO -  * Debugger PIN: 112-912-416
+2024-10-15 09:56:39,149 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:56:39,157 - INFO - 127.0.0.1 - - [15/Oct/2024 09:56:39] "GET /login HTTP/1.1" 200 -
+2024-10-15 09:56:40,105 - INFO - Start ldap
+2024-10-15 09:56:40,105 - ERROR - Error: (0, 'Error')
+2024-10-15 09:56:40,105 - INFO - End ldap
+2024-10-15 09:56:40,105 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:56:40,106 - INFO - 127.0.0.1 - - [15/Oct/2024 09:56:40] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:56:41,003 - INFO - Start ldap
+2024-10-15 09:56:41,003 - ERROR - Error: (0, 'Error')
+2024-10-15 09:56:41,003 - INFO - End ldap
+2024-10-15 09:56:41,003 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:56:41,004 - INFO - 127.0.0.1 - - [15/Oct/2024 09:56:41] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:56:56,144 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/LDAP_Test.py', reloading
+2024-10-15 09:56:56,172 - INFO -  * Restarting with stat
+2024-10-15 09:56:56,351 - WARNING -  * Debugger is active!
+2024-10-15 09:56:56,355 - INFO -  * Debugger PIN: 112-912-416
+2024-10-15 09:57:14,183 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/LDAP_Test.py', reloading
+2024-10-15 09:57:14,213 - INFO -  * Restarting with stat
+2024-10-15 09:57:14,381 - WARNING -  * Debugger is active!
+2024-10-15 09:57:14,384 - INFO -  * Debugger PIN: 112-912-416
+2024-10-15 09:57:54,406 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/LDAP_Test.py', reloading
+2024-10-15 09:57:54,436 - INFO -  * Restarting with stat
+2024-10-15 09:57:54,624 - WARNING -  * Debugger is active!
+2024-10-15 09:57:54,631 - INFO -  * Debugger PIN: 112-912-416
+2024-10-15 09:58:00,201 - INFO - Start ldap
+2024-10-15 09:58:00,202 - ERROR - Error: (0, 'Error')
+2024-10-15 09:58:00,202 - INFO - End ldap
+2024-10-15 09:58:00,202 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:58:00,210 - INFO - 127.0.0.1 - - [15/Oct/2024 09:58:00] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:58:01,007 - INFO - Start ldap
+2024-10-15 09:58:01,007 - ERROR - Error: (0, 'Error')
+2024-10-15 09:58:01,007 - INFO - End ldap
+2024-10-15 09:58:01,007 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 09:58:01,008 - INFO - 127.0.0.1 - - [15/Oct/2024 09:58:01] "POST /login HTTP/1.1" 200 -
+2024-10-15 09:58:11,487 - INFO -  * Detected change in '/Users/rileynoggle/Documents/CATUITeam/UI-Team---CAT-1/LDAP_Test.py', reloading
+2024-10-15 09:58:11,515 - INFO -  * Restarting with stat
+2024-10-15 09:58:11,688 - WARNING -  * Debugger is active!
+2024-10-15 09:58:11,694 - INFO -  * Debugger PIN: 112-912-416
+2024-10-15 10:07:44,179 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-15 10:07:44,180 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-15 10:07:44,180 - INFO -  * Restarting with stat
+2024-10-15 10:07:44,302 - WARNING -  * Debugger is active!
+2024-10-15 10:07:44,307 - INFO -  * Debugger PIN: 112-912-416
+2024-10-15 10:07:48,957 - INFO - Start ldap
+2024-10-15 10:07:49,034 - INFO - End ldap
+2024-10-15 10:07:49,034 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 10:07:49,044 - INFO - 127.0.0.1 - - [15/Oct/2024 10:07:49] "POST /login HTTP/1.1" 200 -
+2024-10-15 10:07:49,836 - INFO - Start ldap
+2024-10-15 10:07:49,895 - INFO - End ldap
+2024-10-15 10:07:49,896 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 10:07:49,898 - INFO - 127.0.0.1 - - [15/Oct/2024 10:07:49] "POST /login HTTP/1.1" 200 -
+2024-10-15 10:07:51,139 - INFO - Start ldap
+2024-10-15 10:07:51,199 - INFO - End ldap
+2024-10-15 10:07:51,200 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 10:07:51,201 - INFO - 127.0.0.1 - - [15/Oct/2024 10:07:51] "POST /login HTTP/1.1" 200 -
+2024-10-15 10:08:03,115 - INFO - Start ldap
+2024-10-15 10:08:03,202 - INFO - End ldap
+2024-10-15 10:08:03,203 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 10:08:03,204 - INFO - 127.0.0.1 - - [15/Oct/2024 10:08:03] "POST /login HTTP/1.1" 200 -
+2024-10-15 10:08:14,623 - INFO - Start ldap
+2024-10-15 10:08:14,685 - INFO - End ldap
+2024-10-15 10:08:14,688 - INFO - 127.0.0.1 - - [15/Oct/2024 10:08:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-15 10:08:14,695 - INFO - Acceess Index from 127.0.0.1, User: einstein
+2024-10-15 10:08:14,703 - INFO - 127.0.0.1 - - [15/Oct/2024 10:08:14] "GET /index HTTP/1.1" 200 -
+2024-10-15 10:08:14,780 - INFO - 127.0.0.1 - - [15/Oct/2024 10:08:14] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-15 10:08:22,263 - INFO - Acceess Logout from 127.0.0.1, User: Unknown
+2024-10-15 10:08:22,263 - INFO - 127.0.0.1 - - [15/Oct/2024 10:08:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-10-15 10:08:22,268 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-10-15 10:08:22,268 - INFO - 127.0.0.1 - - [15/Oct/2024 10:08:22] "GET /index HTTP/1.1" 200 -
+2024-10-15 10:08:23,269 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 10:08:23,270 - INFO - 127.0.0.1 - - [15/Oct/2024 10:08:23] "GET /login HTTP/1.1" 200 -
