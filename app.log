@@ -936,3 +936,38 @@ TypeError: string indices must be integers, not 'str'
 2024-10-15 10:08:22,268 - INFO - 127.0.0.1 - - [15/Oct/2024 10:08:22] "GET /index HTTP/1.1" 200 -
 2024-10-15 10:08:23,269 - INFO - Acceess Login from 127.0.0.1, User: Unknown
 2024-10-15 10:08:23,270 - INFO - 127.0.0.1 - - [15/Oct/2024 10:08:23] "GET /login HTTP/1.1" 200 -
+2024-10-15 10:11:11,351 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 10:11:11,352 - INFO - 127.0.0.1 - - [15/Oct/2024 10:11:11] "GET /login HTTP/1.1" 200 -
+2024-10-15 10:11:12,353 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-10-15 10:11:12,354 - INFO - 127.0.0.1 - - [15/Oct/2024 10:11:12] "GET /index HTTP/1.1" 200 -
+2024-10-15 10:11:13,420 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 10:11:13,421 - INFO - 127.0.0.1 - - [15/Oct/2024 10:11:13] "GET /login HTTP/1.1" 200 -
+2024-10-15 10:11:14,923 - INFO - Start ldap
+2024-10-15 10:11:14,977 - INFO - End ldap
+2024-10-15 10:11:14,977 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 10:11:14,979 - INFO - 127.0.0.1 - - [15/Oct/2024 10:11:14] "POST /login HTTP/1.1" 200 -
+2024-10-15 10:11:15,601 - INFO - Start ldap
+2024-10-15 10:11:15,665 - INFO - End ldap
+2024-10-15 10:11:15,665 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 10:11:15,666 - INFO - 127.0.0.1 - - [15/Oct/2024 10:11:15] "POST /login HTTP/1.1" 200 -
+2024-10-15 10:11:25,073 - INFO - Start ldap
+2024-10-15 10:11:25,139 - INFO - End ldap
+2024-10-15 10:11:25,141 - INFO - 127.0.0.1 - - [15/Oct/2024 10:11:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-15 10:11:25,146 - INFO - Acceess Index from 127.0.0.1, User: einstein
+2024-10-15 10:11:25,147 - INFO - 127.0.0.1 - - [15/Oct/2024 10:11:25] "GET /index HTTP/1.1" 200 -
+2024-10-15 10:11:25,218 - INFO - 127.0.0.1 - - [15/Oct/2024 10:11:25] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-15 10:11:50,352 - INFO - Acceess Logout from 127.0.0.1, User: Unknown
+2024-10-15 10:11:50,353 - INFO - 127.0.0.1 - - [15/Oct/2024 10:11:50] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-10-15 10:11:50,358 - INFO - Acceess Index from 127.0.0.1, User: Unknown
+2024-10-15 10:11:50,360 - INFO - 127.0.0.1 - - [15/Oct/2024 10:11:50] "GET /index HTTP/1.1" 200 -
+2024-10-15 10:11:51,301 - INFO - Acceess Login from 127.0.0.1, User: Unknown
+2024-10-15 10:11:51,302 - INFO - 127.0.0.1 - - [15/Oct/2024 10:11:51] "GET /login HTTP/1.1" 200 -
+2024-10-15 10:12:00,458 - INFO - Start ldap
+2024-10-15 10:12:00,584 - INFO - End ldap
+2024-10-15 10:12:00,587 - INFO - 127.0.0.1 - - [15/Oct/2024 10:12:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-15 10:12:00,604 - INFO - Acceess Index from 127.0.0.1, User: einstein
+2024-10-15 10:12:00,605 - INFO - 127.0.0.1 - - [15/Oct/2024 10:12:00] "GET /index HTTP/1.1" 200 -
+2024-10-15 10:12:00,675 - INFO - 127.0.0.1 - - [15/Oct/2024 10:12:00] "[36mGET /static/basic.png HTTP/1.1[0m" 304 -
+2024-10-15 13:04:02,655 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-15 13:04:02,655 - INFO - [33mPress CTRL+C to quit[0m
