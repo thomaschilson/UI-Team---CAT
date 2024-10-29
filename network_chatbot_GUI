@@ -1,0 +1,53 @@
+import tkinter as tk
+from tkinter import ttk
+
+# Create the main application window
+root = tk.Tk()
+root.title("Network Stats Chatbot")
+root.geometry("400x400")
+
+# Function to handle user selection and provide chatbot responses
+def get_response():
+    user_input = question_var.get()  # Get the selected question
+    if user_input == "Select a question":
+        response = "Please select a valid question."
+    elif user_input == "What is Network Utilization?":
+        response = "Network utilization measures the percentage of network capacity currently being used."
+    elif user_input == "What is Latency?":
+        response = "Latency is the time it takes for data to travel from source to destination across the network."
+    elif user_input == "What is Packet Loss?":
+        response = "Packet loss occurs when packets of data fail to reach their destination."
+    elif user_input == "What is Bandwidth?":
+        response = "Bandwidth is the maximum rate at which data can be transferred over a network path."
+    else:
+        response = "No information available for the selected option."
+
+    # Display response in the chat history
+    chat_history.config(state=tk.NORMAL)
+    chat_history.insert(tk.END, "You: " + user_input + "\n")
+    chat_history.insert(tk.END, "Bot: " + response + "\n\n")
+    chat_history.config(state=tk.DISABLED)
+    chat_history.see(tk.END)
+
+# Chat history display
+chat_history = tk.Text(root, wrap="word", state=tk.DISABLED, width=50, height=15)
+chat_history.pack(pady=10)
+
+# Dropdown menu for preset questions
+question_var = tk.StringVar(value="Select a question")
+questions = [
+    "Select a question",
+    "What is Network Utilization?",
+    "What is Latency?",
+    "What is Packet Loss?",
+    "What is Bandwidth?"
+]
+question_menu = ttk.Combobox(root, textvariable=question_var, values=questions, state="readonly")
+question_menu.pack(pady=10)
+
+# Button to get response
+response_button = tk.Button(root, text="Get Info", command=get_response)
+response_button.pack(pady=10)
+
+# Run the main loop
+root.mainloop()
